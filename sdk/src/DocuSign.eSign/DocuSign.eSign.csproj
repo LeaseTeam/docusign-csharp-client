@@ -31,11 +31,13 @@ Contact: devcenter@docusign.com
     <PackageLicenseUrl>https://github.com/docusign/docusign-csharp-client/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/docusign/docusign-csharp-client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>3.1.1</Version>
+    <Version>1.1.1</Version>
     <PackageReleaseNotes>
       [v3.1.1] - eSignature API v18.3.00 - 10/15/2018
       https://github.com/docusign/docusign-csharp-client/blob/master/CHANGELOG.md
 </PackageReleaseNotes>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,7 +71,7 @@ Contact: devcenter@docusign.com
     <Reference Include="System.Xml" />
     <PackageReference Include="Newtonsoft.Json" Version="8.0.3" />
     <PackageReference Include="BouncyCastle" Version="1.8.1" />
-    <PackageReference Include="RestSharpSigned" Version="105.2.3" />
+    <PackageReference Include="RestSharp" Version="105.2.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="4.0.2.206221351" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net45'">
@@ -79,6 +81,9 @@ Contact: devcenter@docusign.com
   <!-- .NET Standard 2.0 compilation flags and build options -->
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
     <DefineConstants>NETSTANDARD2_0</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
