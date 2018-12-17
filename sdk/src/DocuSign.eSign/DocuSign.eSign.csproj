@@ -11,7 +11,7 @@ Contact: devcenter@docusign.com
   <PropertyGroup Label="NuGet">
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
-    <PackageId>DocuSign.eSign.dll</PackageId>
+    <PackageId>LeaseTeam.DocuSign.eSign.dll</PackageId>
     <Description>The DocuSign NuGet package makes integrating DocuSign into your apps and websites a super fast and painless process. The library is open sourced on GitHub, look for the docusign-csharp-client repository. Join the eSign revolution!</Description>
     <Company>DocuSign Inc.</Company>
     <Owners>DocuSign</Owners>
@@ -30,9 +30,9 @@ Contact: devcenter@docusign.com
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>DocuSign.eSign;REST;eSign;docusign;eSignature;api</PackageTags>
     <PackageIconUrl>https://www.docusign.com/sites/all/themes/custom/docusign/favicons/favicon-32x32.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/docusign/docusign-csharp-client</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/docusign/docusign-csharp-client/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/docusign/docusign-csharp-client</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/LeaseTeam/docusign-csharp-client</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/LeaseTeam/docusign-csharp-client/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/LeaseTeam/docusign-csharp-client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>[v3.1.3] - eSignature API v18.3.02 - 11/29/2018</PackageReleaseNotes>
   </PropertyGroup>
